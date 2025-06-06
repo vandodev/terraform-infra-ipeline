@@ -15,3 +15,54 @@
     <img width="100%" src="https://github.com/user-attachments/assets/d6819daa-4c37-4d81-8ba8-27f86b76a54d"> 
 </p>
 
+### Fista de tarefas
+
+Setup do projeto
+- [x] Criar repositório da pipeline de infra no Github
+- [ ] Criar bucket s3 (dev e prod)
+- [ ] Escrever código terraform que criará recurso na AWS
+
+Configurar conta AWS
+- [ ] Configurar AWS IAM 
+- [ ] Configurar tTrust Relationship via OpenID
+- [ ] Criar role
+- [ ] Criar bucket s3 para armazenar os Stalefiles do terraform
+- [ ] Criar a tabela no DynameDB para realizar o look para modificações concorrentes
+
+Criar o Reusable Workflow de Terraform
+- [ ] Configurar os inputs do workflow 
+  - [ ] env 
+  - [ ] aws assume role arn 
+  - [ ] aws region 
+  - [ ] aws s3 bucket statefile 
+  - [ ] aws dynamodb table lock 
+
+Configurar o setup do workflow  
+- [ ] Clonar o repositório 
+- [ ] Configurar a AWS CLI 
+- [ ] Configurar o Terraform CLI 
+
+- [ ] Configurar o step Terraform Init 
+- [ ] Configurar o step Terraform Validate 
+- [ ] Configurar o step do Terraform Plan 
+- [ ] Configurar o step do Terraform Apply
+
+Configurando a pipeline para o ambiente de DEV: 
+- [ ] Configurar o reusable workflow do Terraform (develop) 
+- [ ] Realizar a criação de um bucket S3 no ambiente de DEV 
+
+Configurando a pipeline para o ambiente de PROD: 
+- [ ] Configurar o reusable workflow do Terraform (main) 
+- [ ] Realizar a criação de um bucket S3 no ambiente de PROD 
+
+Configurar o suporte para Terraform Destroy 
+- [ ] Configurar o step de ler destroy_config.json 
+- [ ] Configurar o step do Terraform Destroy 
+- [ ] Ajustar os steps de plan e apply para considerar o destroy 
+- [ ] Realizar o destroy no ambiente de DEV 
+- [ ] Realizar o destroy no ambiente de R 
+
+
+
+
+
