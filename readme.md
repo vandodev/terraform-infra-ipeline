@@ -19,7 +19,7 @@
 
 Setup do projeto
 - [x] Criar repositório da pipeline de infra no Github
-- [ ] Criar bucket s3 (dev e prod)
+- [x] Criar bucket s3 (dev e prod)
 - [x] Escrever código terraform que criará recurso na AWS
 
 Configurar conta AWS
