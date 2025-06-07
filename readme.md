@@ -39,9 +39,9 @@ Criar o Reusable Workflow de Terraform
 - [x] Criar uma branch develop
 
 Configurar o setup do workflow  
-- [ ] Clonar o repositório 
-- [ ] Configurar a AWS CLI 
-- [ ] Configurar o Terraform CLI 
+- [x] Clonar o repositório 
+- [x] Configurar a AWS CLI 
+- [x] Configurar o Terraform CLI 
 
 - [ ] Configurar o step Terraform Init 
 - [ ] Configurar o step Terraform Validate 
