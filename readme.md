@@ -30,30 +30,30 @@ Configurar conta AWS
 - [x] Criar a tabela no DynameDB para realizar o look para modificações concorrentes
 
 Criar o Reusable Workflow de Terraform
-- [ ] Configurar os inputs do workflow 
-  - [ ] env 
-  - [ ] aws assume role arn 
-  - [ ] aws region 
-  - [ ] aws s3 bucket statefile 
-  - [ ] aws dynamodb table lock 
+- [x] Configurar os inputs do workflow 
+  - [x] env 
+  - [x] aws assume role arn 
+  - [x] aws region 
+  - [x] aws s3 bucket statefile 
+  - [x] aws dynamodb table lock 
 
 Configurar o setup do workflow  
-- [ ] Clonar o repositório 
-- [ ] Configurar a AWS CLI 
-- [ ] Configurar o Terraform CLI 
+- [x] Clonar o repositório 
+- [x] Configurar a AWS CLI 
+- [x] Configurar o Terraform CLI 
 
-- [ ] Configurar o step Terraform Init 
-- [ ] Configurar o step Terraform Validate 
-- [ ] Configurar o step do Terraform Plan 
-- [ ] Configurar o step do Terraform Apply
+- [x] Configurar o step Terraform Init 
+- [x] Configurar o step Terraform Validate 
+- [x] Configurar o step do Terraform Plan 
+- [x] Configurar o step do Terraform Apply
 
 Configurando a pipeline para o ambiente de DEV: 
-- [ ] Configurar o reusable workflow do Terraform (develop) 
-- [ ] Realizar a criação de um bucket S3 no ambiente de DEV 
+- [x] Configurar o reusable workflow do Terraform (develop) 
+- [x] Realizar a criação de um bucket S3 no ambiente de DEV 
 
 Configurando a pipeline para o ambiente de PROD: 
-- [ ] Configurar o reusable workflow do Terraform (main) 
-- [ ] Realizar a criação de um bucket S3 no ambiente de PROD 
+- [x] Configurar o reusable workflow do Terraform (main) 
+- [x] Realizar a criação de um bucket S3 no ambiente de PROD 
 
 Configurar o suporte para Terraform Destroy 
 - [ ] Configurar o step de ler destroy_config.json 
