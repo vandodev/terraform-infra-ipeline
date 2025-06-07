@@ -43,7 +43,7 @@ Configurar o setup do workflow
 - [x] Configurar a AWS CLI 
 - [x] Configurar o Terraform CLI 
 
-- [ ] Configurar o step Terraform Init 
+- [x] Configurar o step Terraform Init 
 - [ ] Configurar o step Terraform Validate 
 - [ ] Configurar o step do Terraform Plan 
 - [ ] Configurar o step do Terraform Apply
