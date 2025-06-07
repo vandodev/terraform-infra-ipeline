@@ -30,12 +30,13 @@ Configurar conta AWS
 - [x] Criar a tabela no DynameDB para realizar o look para modificações concorrentes
 
 Criar o Reusable Workflow de Terraform
-- [ ] Configurar os inputs do workflow 
-  - [ ] env 
-  - [ ] aws assume role arn 
-  - [ ] aws region 
-  - [ ] aws s3 bucket statefile 
-  - [ ] aws dynamodb table lock 
+- [x] Configurar os inputs do workflow 
+  - [x] env 
+  - [x] aws assume role arn 
+  - [x] aws region 
+  - [x] aws s3 bucket statefile 
+  - [x] aws dynamodb table lock  
+- [x] Criar uma branch develop
 
 Configurar o setup do workflow  
 - [ ] Clonar o repositório 
