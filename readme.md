@@ -45,7 +45,7 @@ Configurar o setup do workflow
 
 - [x] Configurar o step Terraform Init 
 - [x] Configurar o step Terraform Validate 
-- [ ] Configurar o step do Terraform Plan 
+- [x] Configurar o step do Terraform Plan 
 - [ ] Configurar o step do Terraform Apply
 
 Configurando a pipeline para o ambiente de DEV: 
