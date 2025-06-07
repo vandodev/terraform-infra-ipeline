@@ -44,7 +44,7 @@ Configurar o setup do workflow
 - [x] Configurar o Terraform CLI 
 
 - [x] Configurar o step Terraform Init 
-- [ ] Configurar o step Terraform Validate 
+- [x] Configurar o step Terraform Validate 
 - [ ] Configurar o step do Terraform Plan 
 - [ ] Configurar o step do Terraform Apply
 
