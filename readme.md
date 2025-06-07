@@ -23,11 +23,11 @@ Setup do projeto
 - [x] Escrever código terraform que criará recurso na AWS
 
 Configurar conta AWS
-- [ ] Configurar AWS IAM 
+- [x] Configurar AWS IAM 
 - [ ] Configurar tTrust Relationship via OpenID
-- [ ] Criar role
-- [ ] Criar bucket s3 para armazenar os Stalefiles do terraform
-- [ ] Criar a tabela no DynameDB para realizar o look para modificações concorrentes
+- [x] Criar role
+- [x] Criar bucket s3 para armazenar os Stalefiles do terraform
+- [x] Criar a tabela no DynameDB para realizar o look para modificações concorrentes
 
 Criar o Reusable Workflow de Terraform
 - [ ] Configurar os inputs do workflow 
