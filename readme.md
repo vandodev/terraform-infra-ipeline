@@ -62,10 +62,10 @@ Configurando a pipeline para o ambiente de PROD:
 
 Configurar o suporte para Terraform Destroy 
 - [x] Configurar o step de ler destroy_config.json 
-- [ ] Configurar o step do Terraform Destroy 
-- [ ] Ajustar os steps de plan e apply para considerar o destroy 
-- [ ] Realizar o destroy no ambiente de DEV 
-- [ ] Realizar o destroy no ambiente de R 
+- [x] Configurar o step do Terraform Destroy 
+- [x] Ajustar os steps de plan e apply para considerar o destroy 
+- [x] Realizar o destroy no ambiente de Prod 
+- [ ] Realizar o destroy no ambiente de Dev 
 
 
 
