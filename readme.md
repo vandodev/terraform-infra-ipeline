@@ -35,8 +35,12 @@ Criar o Reusable Workflow de Terraform
   - [x] aws assume role arn 
   - [x] aws region 
   - [x] aws s3 bucket statefile 
+<<<<<<< HEAD
   - [x] aws dynamodb table lock  
 - [x] Criar uma branch develop
+=======
+  - [x] aws dynamodb table lock 
+>>>>>>> develop
 
 Configurar o setup do workflow  
 - [x] Clonar o repositório 
@@ -53,8 +57,8 @@ Configurando a pipeline para o ambiente de DEV:
 - [x] Realizar a criação de um bucket S3 no ambiente de DEV 
 
 Configurando a pipeline para o ambiente de PROD: 
-- [ ] Configurar o reusable workflow do Terraform (main) 
-- [ ] Realizar a criação de um bucket S3 no ambiente de PROD 
+- [x] Configurar o reusable workflow do Terraform (main) 
+- [x] Realizar a criação de um bucket S3 no ambiente de PROD 
 
 Configurar o suporte para Terraform Destroy 
 - [ ] Configurar o step de ler destroy_config.json 

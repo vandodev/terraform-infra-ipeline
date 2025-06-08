@@ -1,9 +1,9 @@
-name: "DEV DEPLOY"
+name: "PROD"
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 permissions:
   id-token: write
@@ -13,7 +13,7 @@ jobs:
   terraform:
     uses: ./.github/workflows/terraform.yml
     with:
-      environment: dev
+      environment: prod
       aws-assume-role-arn: "arn:aws:iam::389233637717:role/vandodevpipeline"
       aws-region: "us-east-2"
       aws-statefile-s3-bucket: "terraformstatefilebucketvandodev"
