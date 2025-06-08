@@ -61,7 +61,7 @@ Configurando a pipeline para o ambiente de PROD:
 - [x] Realizar a criação de um bucket S3 no ambiente de PROD 
 
 Configurar o suporte para Terraform Destroy 
-- [ ] Configurar o step de ler destroy_config.json 
+- [x] Configurar o step de ler destroy_config.json 
 - [ ] Configurar o step do Terraform Destroy 
 - [ ] Ajustar os steps de plan e apply para considerar o destroy 
 - [ ] Realizar o destroy no ambiente de DEV 
