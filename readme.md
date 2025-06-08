@@ -49,8 +49,8 @@ Configurar o setup do workflow
 - [x] Configurar o step do Terraform Apply
 
 Configurando a pipeline para o ambiente de DEV: 
-- [ ] Configurar o reusable workflow do Terraform (develop) 
-- [ ] Realizar a criação de um bucket S3 no ambiente de DEV 
+- [x] Configurar o reusable workflow do Terraform (develop) 
+- [x] Realizar a criação de um bucket S3 no ambiente de DEV 
 
 Configurando a pipeline para o ambiente de PROD: 
 - [ ] Configurar o reusable workflow do Terraform (main) 
