@@ -42,7 +42,6 @@ jobs:
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ inputs.aws-region }}
 
-
       - name: Terraform Init
         run: |
           cd infra && terraform init \
@@ -54,11 +53,14 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-  
       - name: Terraform Plan
         id: terraform-plan
         run: cd infra &&
           terraform workspace select ${{ inputs.environment }} || terraform workspace new ${{ inputs.environment }} &&
           terraform plan -var-file="./envs/${{ inputs.environment }}/terraform.tfvars" -out="${{ inputs.environment }}.plan"
 
-   
+      - name: Terraform Apply
+        id: terraform-apply
+        run: cd infra &&
+          terraform workspace select ${{ inputs.environment }} || terraform workspace new ${{ inputs.environment }} &&
+          terraform apply "${{ inputs.environment }}.plan"
